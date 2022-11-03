@@ -1,0 +1,7 @@
+{
+  "latestVersion": "v0.6",
+  "lastUpdate": "20221103",
+  "gitRepoName": "android_dev_summary",
+  "bookName": "Android开发总结",
+  "bookDescription": "总结Android开发的心得。先是概览；然后介绍Android设备和设备类型；介绍版本号；环境变量；开发语言；以及目前用的最多的IDE即Android Studio，智能之处；以及常用的库；常用代码段。"
+}

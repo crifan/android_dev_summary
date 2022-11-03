@@ -1,0 +1,19 @@
+{
+  "title": "Android开发总结",
+  "description": "总结Android开发的心得。先是概览；然后介绍Android设备和设备类型；介绍版本号；环境变量；开发语言；以及目前用的最多的IDE即Android Studio，智能之处；以及常用的库；常用代码段。",
+  "pluginsConfig": {
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "android_dev_summary"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.org/books/android_dev_summary/website/"
+    },
+    "toolbar-button": {
+      "url": "https://book.crifan.org/books/android_dev_summary/pdf/android_dev_summary.pdf"
+    }
+  }
+}
