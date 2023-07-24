@@ -18,9 +18,50 @@ TODO：
 
 ## 下载和安装
 
-* 【已解决】Mac中安装android Studio和android SDK
-* 【已解决】Mac中Android Studio下载gradle的zip包速度太慢
-* 【已解决】Mac中Android Studio中gradle的库下载速度慢
+从Android Studio的官网的[下载页面](https://developer.android.com/studio)去下载到和当前电脑匹配的安装包，去安装即可。
+
+比如，此处`Mac M2 Max`匹配的是`Apple Silicon`的`Android Studio Flamingo | 2022.2.1 Patch 2`的安装包：
+
+`android-studio-2022.2.1.20-mac_arm.dmg`
+
+![mac_arm_as_dmg](../assets/img/mac_arm_as_dmg.png)
+
+双击后，弹框中，把`Android Studio.app`拖动到`应用程序`，即可实现安装：
+
+![mac_as_installed_app](../assets/img/mac_as_installed_app.png)
+
+之后即可双击应用程序中的`Android Studio.app`启动`AS`，双击启动，进行初始化配置
+
+期间需要注意的一点是，最好是，已有代理工具，且此处`HTTP Proxy`从默认的`No Proxy`改为`Auto-detect proxy settings`：
+
+![as_init_proxy_auto_detect](../assets/img/as_init_proxy_auto_detect.png)
+
+这样可以加速后续的google资源的下载。
+
+初始化配置后，即可进入主页面：
+
+![android_studio_main_ui](../assets/img/android_studio_main_ui.png)
+
+此处相关版本信息是：
+
+```bash
+Android Studio Flamingo | 2022.2.1 Patch 2
+Build #AI-222.4459.24.2221.10121639, built on May 12, 2023
+Runtime version: 17.0.6+0-17.0.6b802.4-9586694 aarch64
+VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+macOS 13.2.1
+GC: G1 Young Generation, G1 Old Generation
+Memory: 1280M
+Cores: 12
+Metal Rendering is ON
+Registry:
+    external.system.auto.import.disabled=true
+    ide.text.editor.with.preview.show.floating.toolbar=false
+    gradle.version.catalogs.dynamic.support=true
+
+Non-Bundled Plugins:
+    com.developerphil.adbidea (1.6.9)
+```
 
 ## AS快捷键
 
@@ -34,6 +75,9 @@ TODO：
 
 ## gradle
 
+TODO：
+
+* 【已解决】Mac中Android Studio下载gradle的zip包速度太慢
 * 【已解决】Mac中Android Studio中gradle的库下载速度慢
 * 【已解决】Android Studio中gradle编译的项目如何加参数：-Xlint:unchecked
 * 【已解决】Android Studio中gradle报错：ERROR Cause compileSdkVersion is not specified

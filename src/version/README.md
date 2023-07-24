@@ -1,16 +1,13 @@
 # Android版本
 
-TODO：
-
-* 【整理】Android的api和sdk的版本号安卓版本和名称对应关系
-* 【整理】Android的sdk数值和版本号对应关系映射表
-
----
-
-Android的：sdk的int值=api级别 和 代号=版本号 之间关系=映射表
+Android的：`sdk的int值`=`api级别` 和 `代号`=`版本号` 之间关系=映射表
 
 | 代号=Codename | 版本=Version | API 级别=level / NDK 版本=release |
 | ---- | -- | --------------- |
+| Android13 | 13 | API 级别 33 |
+| Android12L | 12 | API 级别 32 |
+| Android12 | 12 | API 级别 31 |
+| Android11 | 11 | API 级别 30 |
 | Android10 | 10 | API 级别 29 |
 | Pie | 9| API 级别 28 |
 | Oreo|8.1.0 | API 级别 27 |
@@ -43,6 +40,8 @@ Android的：sdk的int值=api级别 和 代号=版本号 之间关系=映射表
 
 此处列举出自己需要用到的几个：
 
-* `Android 6.0` = `Marshmallow` = sdk的int值即`API 23`
-* `Android 9.0` = `Pie`  = sdk的int值即`API 28`
-* `Android 10.0` = `Android10`  = sdk的int值即`API 29`
+* `Android 6.0`   = `Marshmallow` = sdk的int值即`API 23`
+* `Android 8.1.0` = `Oreo` = sdk的int值即`API 27`
+* `Android 9.0`   = `Pie`  = sdk的int值即`API 28`
+* `Android 10.0`  = `Android10`  = sdk的int值即`API 29`
+* `Android 11.0`  = `Android11`  = sdk的int值即`API 30`
