@@ -175,7 +175,7 @@
   * One E9(E9t/E9w)/One E9+(E9pw)
   * One M8si
   * One M9(M9u/M9w/m9e)/One M9+(M9pt/M9pw)
-  * One ME(M9et/(M9ew)
+  * One ME(M9et/M9ew)
   * One X9u
 * 中国移动
   * A2(M636/双4G)
