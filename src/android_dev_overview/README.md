@@ -7,4 +7,4 @@
   * 最新：`Kotlin`
 * Android开发工具
   * 早期：`Eclipse+ADT`
-  * 最新：`Android Studio`
+  * 最新：[Android Studio](https://developer.android.com/studio)
